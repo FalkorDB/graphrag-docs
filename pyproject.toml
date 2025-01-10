@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "graphrag-docs"
+version = "0.1.0"
+description = ""
+authors = ["Guy Korland <gkorland@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+graphrag-sdk = {extras = ["litellm"], version = "^0.4.1"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

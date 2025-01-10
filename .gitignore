@@ -1,0 +1,58 @@
+# Byte-compiled files
+*.py[cod]
+__pycache__/
+*.pyo
+
+# Poetry files
+poetry.lock  # Optional, if you want to ignore it and let others regenerate it
+.cache/
+
+# Virtual environments
+# Poetry creates and manages a virtual environment outside of the project by default,
+# but add this if you use custom virtual environments inside the project directory
+.venv/
+
+# Logs and debugging output
+*.log
+*.out
+*.err
+
+# Test coverage reports
+coverage.xml
+.coverage
+.coverage.*
+.cache
+.nox/
+
+# Pytest cache
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.DS_Store
+Thumbs.db
+
+# Documentation artifacts
+docs/_build/
+
+# Distribution/build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.wheel
+.eggs/
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.iml
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+docs/
